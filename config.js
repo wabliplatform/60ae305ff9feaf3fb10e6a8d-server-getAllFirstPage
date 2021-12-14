@@ -3,8 +3,8 @@ const path = require('path');
 const config = {
   ROOT_DIR: __dirname,
   URL_PORT: 3011,
-  URL_PATH: 'https://wabli-solid-spoon.cyclopt.services',
-  DB_URL: 'mongodb://127.0.0.1:27017/generatedServer',
+  URL_PATH: 'http://localhost',
+  DB_URL: 'mongodb://127.0.0.1:27017/solidspoon',
   DEBUG_MODE: true,
   BASE_VERSION: '/v1',
   CONTROLLER_DIRECTORY: path.join(__dirname, 'controllers'),
